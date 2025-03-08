@@ -281,3 +281,14 @@ html {
     font-size: 1rem;
     margin-bottom: 1rem;
 }
+/* Prevent headings from being hidden behind the sticky header */
+section {
+    position: relative;
+}
+section:before {
+    content: ""; /* Creates an empty pseudo-element */
+    display: block;
+    height: 100px; /* Adjust the height to match your header + tagline height */
+    margin-top: -100px; /* Pulls the content up while keeping the spacing */
+    visibility: hidden; /* Ensures this doesn't appear visually */
+}
