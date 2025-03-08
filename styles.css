@@ -1,100 +1,96 @@
 /* General Styles */
 body {
     line-height: 1.6;
-    background-color: #f8f9fa; /* Light gray for a softer background */
-    color: #212529; /* Dark gray for text, less harsh than pure black */
+    background-color: #f4f4f4;
+    color: #333;
 }
 
 /* Header Styles */
 header {
-    background-color: #0056b3; /* Deep blue for a modern, professional feel */
-    color: #f8f9fa; /* Light text for contrast */
+    background-color: #333;
+    color: #fff;
 }
 
 header nav ul li a {
-    color: #f8f9fa; /* Consistent light text for links */
-}
-
-header nav ul li a:hover {
-    color: #ffd700; /* Gold to draw attention when hovered */
+    color: #fff;
 }
 
 header .tagline {
-    color: #cce5ff; /* Light blue for a friendly, subtle tone */
+    color: #fff; /* Back to matching the header text */
 }
 
 /* Hero Section Styles */
 .hero {
-    background-color: #0056b3; /* Deep blue to match header for continuity */
-    color: #f8f9fa; /* White text for contrast */
+    background-color: #333; /* Matching header for continuity */
+    color: #fff;
 }
 
 /* Section Styles */
 section h2 {
-    background-color: #0056b3; /* Deep blue for headings */
-    color: #f8f9fa; /* White for readability */
+    background-color: #333; /* Section heading background */
+    color: #fff;
 }
 
 .about, .mission, .challenges {
-    background-color: #ffffff; /* Crisp white for clean sections */
-    color: #212529; /* Consistent dark gray text */
+    background-color: #fff;
+    color: #333;
 }
 
 /* Team Section Styles */
 .team-lead .role, .team-members .role {
-    color: #dc3545; /* Strong red for emphasis */
+    color: red; /* Original red for emphasis */
 }
 
 /* Call to Action Styles */
 .cta {
-    background-color: #ffc107; /* Vibrant yellow to grab attention */
-    color: #212529; /* Neutral text color for readability */
+    background-color: #e2e2e2;
+    color: #333;
 }
 
 .cta button {
-    background-color: #0056b3; /* Deep blue for contrast with yellow */
-    color: #f8f9fa; /* White text */
+    background-color: #333;
+    color: #fff;
 }
 
 .cta button:hover {
-    background-color: #003f7f; /* Darker blue for hover effect */
+    background-color: #555;
 }
 
 /* Footer Styles */
 footer {
-    background-color: #003f7f; /* Dark blue for footer */
-    color: #f8f9fa; /* Light text */
+    background-color: #333;
+    color: #fff;
 }
 
 /* Challenges Section Styles */
 .challenge {
-    background-color: #ffffff; /* White for clean contrast */
-    color: #212529; /* Consistent dark gray text */
-    border: 1px solid #dee2e6; /* Light border for subtle separation */
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ddd;
 }
 
 .challenge h3 {
-    color: #0056b3; /* Deep blue for headings */
+    color: #333;
 }
 
 /* Contact Us Section Styles */
 .contact {
-    background-color: #e9ecef; /* Soft gray for a neutral touch */
-    color: #212529; /* Dark gray for text */
+    background-color: #e2e2e2;
+    color: #333;
 }
 
 .contact ul li a {
-    color: #0056b3; /* Links in deep blue for consistency */
+    color: #0066cc;
 }
 
 .contact ul li a:hover {
-    color: #ffd700; /* Gold for hover effect */
+    text-decoration: underline; /* Maintains simple hover effect */
 }
 
 .contact div p a {
-    color: #0056b3; /* Consistent deep blue for links */
+    color: #0066cc;
 }
 
 .contact div p a:hover {
-    color: #ffd700; /* Matching hover effect */
+    text-decoration: underline;
 }
