@@ -1,283 +1,100 @@
-/* Reset some basic styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
-
 /* General Styles */
 body {
     line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #f8f9fa; /* Light gray for a softer background */
+    color: #212529; /* Dark gray for text, less harsh than pure black */
 }
 
 /* Header Styles */
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 1rem 0;
-    text-align: center;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-}
-
-header .logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 2rem;
-    font-weight: bold;
-    margin-left: 1rem;
-    z-index: 1010; /* Ensure the logo is above other elements */
-}
-
-header .logo img {
-    width: 80px; /* Adjust the size as needed */
-    height: auto;
-    margin-right: 0.5rem;
-}
-
-header nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-}
-
-header nav ul li {
-    margin: 0 1rem;
+    background-color: #0056b3; /* Deep blue for a modern, professional feel */
+    color: #f8f9fa; /* Light text for contrast */
 }
 
 header nav ul li a {
-    color: #fff;
-    text-decoration: none;
+    color: #f8f9fa; /* Consistent light text for links */
+}
+
+header nav ul li a:hover {
+    color: #ffd700; /* Gold to draw attention when hovered */
 }
 
 header .tagline {
-    margin-top: 0.5rem;
-    font-style: italic;
+    color: #cce5ff; /* Light blue for a friendly, subtle tone */
 }
 
 /* Hero Section Styles */
 .hero {
-    color: #fff;
-    height: 80vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 2rem;
-    background-color: #333; /* Temporary background color */
+    background-color: #0056b3; /* Deep blue to match header for continuity */
+    color: #f8f9fa; /* White text for contrast */
 }
 
 /* Section Styles */
-section {
-    padding: 2rem;
-    margin: 1rem 0;
-}
-
 section h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-    background-color: #333; /* Background color for section headings */
-    color: #fff;
-    text-align: center; /* Center-align section headings */
-    padding: 0.5rem 1rem; /* Add padding to prevent background from going to the edge */
+    background-color: #0056b3; /* Deep blue for headings */
+    color: #f8f9fa; /* White for readability */
 }
 
 .about, .mission, .challenges {
-    background-color: #fff; /* Set background color to white */
-    color: #333; /* Set font color to #333 */
-    text-align: left; /* Align content to the left */
-}
-
-section p {
-    font-size: 1rem;
-    margin-bottom: 1rem;
+    background-color: #ffffff; /* Crisp white for clean sections */
+    color: #212529; /* Consistent dark gray text */
 }
 
 /* Team Section Styles */
-.team-tree {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.team-lead, .team-members {
-    text-align: center;
-    margin: 1rem 0;
-}
-
-.team-lead .name, .team-members .name {
-    color: #333; /* Change font color to #333 */
-    font-size: 1.2rem;
-    font-weight: bold;
-}
-
 .team-lead .role, .team-members .role {
-    color: red;
-    font-size: 1rem;
-    font-style: italic;
-}
-
-.team-members {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.team-member {
-    margin: 0.5rem;
-    text-align: center;
+    color: #dc3545; /* Strong red for emphasis */
 }
 
 /* Call to Action Styles */
 .cta {
-    background-color: #e2e2e2;
-    text-align: center;
-    padding: 0.5rem 1rem; /* Add padding to prevent background from going to the edge */
+    background-color: #ffc107; /* Vibrant yellow to grab attention */
+    color: #212529; /* Neutral text color for readability */
 }
 
 .cta button {
-    background-color: #333;
-    color: #fff;
-    padding: 0.5rem 1rem;
-    border: none;
-    cursor: pointer;
+    background-color: #0056b3; /* Deep blue for contrast with yellow */
+    color: #f8f9fa; /* White text */
 }
 
 .cta button:hover {
-    background-color: #555;
+    background-color: #003f7f; /* Darker blue for hover effect */
 }
 
 /* Footer Styles */
 footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1rem 0;
-}
-
-footer div {
-    margin: 0.5rem 0;
+    background-color: #003f7f; /* Dark blue for footer */
+    color: #f8f9fa; /* Light text */
 }
 
 /* Challenges Section Styles */
 .challenge {
-    margin: 2rem 0;
-    padding: 1rem;
-    background-color: #fff; /* Set background color to white */
-    color: #333; /* Set font color to #333 */
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    text-align: left; /* Align content to the left */
+    background-color: #ffffff; /* White for clean contrast */
+    color: #212529; /* Consistent dark gray text */
+    border: 1px solid #dee2e6; /* Light border for subtle separation */
 }
 
 .challenge h3 {
-    font-size: 1.5rem;
-    color: #333; /* Change font color to #333 */
-    margin-bottom: 0.5rem;
-}
-
-.challenge p {
-    font-size: 1rem;
-    margin-bottom: 1rem;
-}
-
-.challenge video {
-    width: 100%;
-    max-width: 800px; /* Set maximum width */
-    height: auto;
-    display: block;
-    margin: 0; /* Align video to the left */
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for better appearance */
+    color: #0056b3; /* Deep blue for headings */
 }
 
 /* Contact Us Section Styles */
 .contact {
-    padding: 2rem;
-    background-color: #e2e2e2; /* Match the background color of the Get Involved section */
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    margin: 2rem 0;
-    text-align: center; /* Center-align content */
-}
-
-.contact h2 {
-    font-size: 2rem;
-    color: #fff; /* Change font color to white */
-    margin-bottom: 1rem;
-}
-
-.contact ul {
-    list-style-type: none;
-    padding: 0;
-    text-align: center; /* Center-align the list */
-}
-
-.contact ul li {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 0.5rem;
-    font-size: 1rem;
-}
-
-.contact ul li .label {
-    color: #333; /* Change font color to #333 */
-    margin-right: 0.5rem;
+    background-color: #e9ecef; /* Soft gray for a neutral touch */
+    color: #212529; /* Dark gray for text */
 }
 
 .contact ul li a {
-    color: #0066cc;
-    text-decoration: none;
+    color: #0056b3; /* Links in deep blue for consistency */
 }
 
 .contact ul li a:hover {
-    text-decoration: underline;
-}
-
-.contact div {
-    text-align: center; /* Center-align the social media links */
-}
-
-.contact div p {
-    font-size: 1rem;
-    margin: 1rem 0;
+    color: #ffd700; /* Gold for hover effect */
 }
 
 .contact div p a {
-    color: #0066cc;
-    text-decoration: none;
+    color: #0056b3; /* Consistent deep blue for links */
 }
 
 .contact div p a:hover {
-    text-decoration: underline;
-}
-
-/* Smooth Scrolling */
-html {
-    scroll-behavior: smooth;
-}
-
-/* Mission & Vision Section Styles */
-.mission {
-    background-color: #fff; /* Set background color to white */
-    color: #333; /* Set font color to #333 */
-    text-align: left; /* Align content to the left */
-}
-
-.mission h3 {
-    font-size: 1.5rem;
-    color: #333; /* Set font color to #333 */
-    margin-bottom: 0.5rem;
-}
-
-.mission p {
-    font-size: 1rem;
-    margin-bottom: 1rem;
+    color: #ffd700; /* Matching hover effect */
 }
