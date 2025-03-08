@@ -138,7 +138,7 @@ section p {
 .cta {
     background-color: #e2e2e2;
     text-align: center;
-    padding: 2rem 1rem; /* Add padding to prevent background from going to the edge */
+    padding: 0.5rem 1rem; /* Add padding to prevent background from going to the edge */
 }
 
 .cta button {
