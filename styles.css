@@ -281,3 +281,12 @@ html {
     font-size: 1rem;
     margin-bottom: 1rem;
 }
+
+.team-member img {
+    width: 100px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Create a circular appearance */
+    margin-bottom: 0.5rem; /* Space below the image */
+    border: 2px solid #ddd; /* Optional: Add a subtle border */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a slight shadow */
+}
