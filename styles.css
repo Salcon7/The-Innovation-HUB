@@ -109,6 +109,7 @@ section p {
 .team-lead, .team-members {
     text-align: center;
     margin: 1rem 0;
+    Width: 110px;
 }
 
 .team-lead .name, .team-members .name {
