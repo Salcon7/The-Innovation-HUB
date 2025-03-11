@@ -283,10 +283,11 @@ html {
 }
 
 .team-member img {
-    width: 100px; /* Adjust width as needed */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 50%; /* Create a circular appearance */
-    margin-bottom: 0.5rem; /* Space below the image */
-    border: 2px solid #ddd; /* Optional: Add a subtle border */
+    width: 100px; /* Set a fixed width */
+    height: 100px; /* Match the height to the width */
+    border-radius: 50%; /* Make it circular */
+    margin-bottom: 0.5rem; /* Add some space below the image */
+    border: 2px solid #ddd; /* Optional: Subtle border for a clean look */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a slight shadow */
+    object-fit: cover; /* Ensures the image content fits properly within the circle */
 }
